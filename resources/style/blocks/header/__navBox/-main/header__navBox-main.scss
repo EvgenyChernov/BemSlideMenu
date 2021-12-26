@@ -1,0 +1,15 @@
+.header__navBox-main {
+    position: fixed;
+    display: grid;
+    justify-content: start;
+    align-content: start;
+    top: 0;
+    right: -100vw;
+    width: calc(100vw - 14%);
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background: none;
+    overflow-x: hidden;
+    transition: 0.3s cubic-bezier(.42,0,.58,1) all;
+}

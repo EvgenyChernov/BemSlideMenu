@@ -1,0 +1,32 @@
+@media (max-width: 766px) {
+    .header__navBox-buttonPerson {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .header__navBox-buttonPerson {
+        display: grid;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 41px;
+        height: 41px;
+        background: url('../../../../asets/img/icons/person_outline_black_24dp.svg');
+        background-size: cover;
+
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .header__navBox-buttonPerson {
+        display: grid;
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 41px;
+        height: 41px;
+        background: url('../../../../asets/img/icons/person_outline_black_24dp.svg');
+        background-size: cover;
+    }
+}
+

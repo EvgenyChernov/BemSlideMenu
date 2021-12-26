@@ -1,0 +1,27 @@
+////////////////// локальные переменные //////////////////
+
+$t-color-black: #222222;
+$t-color-trolley-grey: #7a7a7a;
+$t-color-ash-grey: #b2b2b2;
+$t-color-taupe-gray: #898989;
+$t-color-dark-gray: #a4a4a4;
+$t-color-white-gray: #9f9f9f;
+$t-color-white: #ffffff;
+$t-color-pink: #f16d7f;
+$b-color-light-gray: #f5f5f5;
+$b-color-platinum: #e1e1e1;
+$b-color-grey: #f8f8f8;
+$bg-colog-grey: #e6e6e6;
+////////////////// глобальные переменные //////////////////
+
+$palette-primary: $t-color-black;
+$palette-secondary: $t-color-pink;
+$palette-tertiary: $t-color-white;
+$palette-quaternary: $t-color-white-gray;
+
+$palette-background-primary: $t-color-pink;
+$palette-background-secondary: $b-color-grey;
+$palette-background-active: $t-color-trolley-grey;
+
+$palette-border-primary: $bg-colog-grey;
+$padding-l-r: 15px;

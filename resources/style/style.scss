@@ -1,0 +1,45 @@
+@import "variables";
+@import "mixins";
+@import "fontStyle";
+@import "baseStyle";
+
+// Блоки
+
+@import "blocks/container/container";
+// header
+@import "blocks/header/header";
+@import "blocks/header/__logo/header__logo";
+
+@import "blocks/header/__navBox/header__navBox";
+@import "blocks/header/__navBox/-main/header__navBox-main";
+@import "blocks/header/__navBox/-buttonCart/header__navBox-buttonCart";
+@import "blocks/header/__navBox/-buttonPerson/header__navBox-buttonPerson";
+//
+@import "blocks/header/__navBox/-main/-menu/header__navBox-main-menu";
+@import "blocks/header/__navBox/-main/-menu/_position/header__navBox-main-menu_positionСenter";
+@import "blocks/header/__navBox/-main/-menu/_position/header__navBox-main-menu_positionLeft";
+@import "blocks/header/__navBox/-main/_visible/header__navBox-main_visible";
+@import "blocks/header/__navBox/-main/-menu/-buttonClose/header__navBox-main-menu-buttonClose";
+@import "blocks/header/__navBox/-buttonToggleMenu/header__navBox-buttonToggleMenu";
+//
+@import "blocks/header/__navBox/-background/header__navBox-background";
+@import "blocks/header/__navBox/-background/_blured/header__navBox-background_blurred";
+
+// Header
+@import "blocks/header/__searchBox/header__searchBox";
+@import "blocks/header/__search/header__search";
+@import "blocks/header/__search/-buttonClose/header__search-buttonClose";
+@import "blocks/header/__search/_visible/header__search_visible";
+@import "blocks/header/__search/-input/-icon/header__search-input-icon";
+@import "blocks/header/__search/-input/-span/header__search-input-span";
+@import "blocks/header/__search/-input/header__search-input";
+// Кнопка для мобиной верисии поиска
+@import "blocks/header/__searchBox/-buttonToggleFind/header__searchBox-buttonToggleFind";
+@import "blocks/header/__searchBox/-background/header__searchBox-background";
+@import "blocks/header/__searchBox/-background/_blured/header__searchBox-background_blurred";
+// подключаю стили с меню
+@import "blocks/header/__navBox/-main/-menu/-categorisesBox/header__navBox-main-menu-categorisesBox";
+@import "blocks/header/__navBox/-main/-menu/-categorisesBox/-buttonCategory/header__navBox-main-menu-categoriesBox-buttonCategory";
+// подключаю кнопку назад меню
+@import "blocks/header/__navBox/-main/-menu/-buttonBack/header__navBox-main-menu-buttonBack";
+@import "blocks/header/__navBox/-main/-menu/-heading/header__navBox-main-menu-heading";

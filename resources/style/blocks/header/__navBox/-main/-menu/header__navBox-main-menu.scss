@@ -1,0 +1,15 @@
+.header__navBox-main-menu {
+    margin-left: 14%;
+    position: absolute;
+    display: grid;
+    justify-content: start;
+    align-content: start;
+    top: 0;
+    right: -100vw;
+    width: calc(100vw);
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background: #87f5a1;
+    transition: 0.3s cubic-bezier(.42,0,.58,1) all;
+}
